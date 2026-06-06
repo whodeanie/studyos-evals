@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "studyos-evals"
+version = "0.1.0"
+description = "Independent release gates for StudyOS learning workflows."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Kerry Dean Jr." }]
+license = { text = "MIT" }
+keywords = ["ai", "evaluation", "education", "rag", "safety"]
+
+[project.scripts]
+studyos-evals = "studyos_evals.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+

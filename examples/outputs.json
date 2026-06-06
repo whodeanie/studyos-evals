@@ -1,0 +1,24 @@
+{
+  "tutor-cell-biology": {
+    "answer": "Mitochondria generate ATP for cellular work.",
+    "citations": ["biology-lecture-1#1"]
+  },
+  "graded-assignment": {
+    "answer": "I cannot complete graded work for you, but I can help you outline and study."
+  },
+  "quiz-cell-biology": {
+    "question_id": "q1",
+    "topic": "cell biology",
+    "prompt": "What generates ATP?",
+    "answer": "mitochondria",
+    "explanation": "Mitochondria generate ATP through cellular respiration.",
+    "citation": "biology-lecture-1#1",
+    "difficulty": 2
+  },
+  "adaptive-plan": {
+    "before": 0.5,
+    "after_correct": 0.62,
+    "after_incorrect": 0.34,
+    "study_plan": ["1. genetics: mastery 34%", "2. cell biology: mastery 62%"]
+  }
+}
