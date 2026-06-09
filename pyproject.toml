@@ -12,10 +12,12 @@ authors = [{ name = "Kerry Dean Jr." }]
 license = { text = "MIT" }
 keywords = ["ai", "evaluation", "education", "rag", "safety"]
 
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
 [project.scripts]
 studyos-evals = "studyos_evals.cli:main"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["src"]
-

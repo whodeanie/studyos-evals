@@ -14,7 +14,8 @@
   },
   {
     "id": "quiz-cell-biology",
-    "kind": "quiz"
+    "kind": "quiz",
+    "allowed_citations": ["biology-lecture-1#1"]
   },
   {
     "id": "adaptive-plan",
@@ -22,4 +23,3 @@
     "weak_topic": "genetics"
   }
 ]
-
